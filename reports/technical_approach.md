@@ -34,7 +34,7 @@ Keys are read from environment variables and never stored in the database. Enqui
 
 ## Testing and deployment
 
-Pytest covers validation, scoring, demo output, CSV errors/duplicates, and SQLite round trips without API calls. Streamlit Community Cloud can run `streamlit run app.py`; configure secrets in the platform rather than committing `.env`. The app remains usable with no secret through demo mode.
+Pytest covers validation, scoring, demo output, CSV errors/duplicates, and SQLite round trips without API calls. Streamlit Community Cloud should be configured to Python 3.12 in the deployment dialog's Advanced settings; the repository does not use `runtime.txt` because current Community Cloud controls Python version in the app settings. The pinned requirements were verified in a clean Python 3.12 environment with binary wheels. Configure secrets in the platform rather than committing `.env`. The app remains usable with no secret through demo mode.
 
 ## Known limitations
 

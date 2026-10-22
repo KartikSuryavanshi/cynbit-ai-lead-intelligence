@@ -38,7 +38,7 @@ See `reports/ai_opportunity_report.md`, `reports/technical_approach.md`, and `re
 
 ## Deployment
 
-For Streamlit Community Cloud, select this repository, set the main file to `app.py`, and add `OPENAI_API_KEY`/`OPENAI_MODEL` under App settings → Secrets if needed. Without secrets it runs in demo mode. SQLite storage is local/ephemeral on many hosted platforms; use a managed database before multi-user production.
+For Streamlit Community Cloud, select this repository, set the main file to `app.py`, and choose **Python 3.12** in **Advanced settings → Python version** before deploying. Community Cloud controls this version in the deployment settings; do not rely on `runtime.txt` or `.python-version`. For an existing app currently configured for Python 3.14, change the setting and redeploy (Community Cloud may require deleting and recreating the app to change its Python version). The pinned dependencies have been verified in a clean Python 3.12 environment using binary wheels, including pandas and Pillow. Add `OPENAI_API_KEY`/`OPENAI_MODEL` under App settings → Secrets if needed. Without secrets it runs in demo mode. SQLite storage is local/ephemeral on many hosted platforms; use a managed database before multi-user production.
 
 To reset local demonstration data, stop the app and remove only `data/leads.db`; it is recreated automatically on the next launch.
 
