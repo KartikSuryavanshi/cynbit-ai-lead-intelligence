@@ -1,0 +1,7 @@
+customer_name,company_name,enquiry_text,service_category,budget,timeline
+Anika Rao,Northstar Health,"We need an AI assistant to triage support tickets and launch a pilot by the end of next month. It should integrate with our existing helpdesk.",AI automation,Unknown,End of next month
+Rahul Mehta,Orbit Retail,"We are exploring a new e-commerce platform and need help understanding architecture, integrations, and an approximate delivery approach.",Software development,Unknown,Unknown
+,Small business owner,"Can you help improve our search visibility? We do not yet have a defined scope or target keywords.",Digital marketing & SEO,Unknown,Unknown
+Maya Singh,BluePeak Logistics,"Our AWS bill and deployment process are difficult to manage. We want a cloud audit and migration plan, but need to align internally first.",Cloud infrastructure,Not specified,This quarter
+Dev Shah,Acme Labs,"Interested in a custom mobile application for field teams. We need offline forms, role-based access, and a reporting dashboard for a pilot in six weeks.",Software development,₹8-12 lakh,6 weeks
+Sara Khan,Learning Loop,"Please share information about training and industry projects. We are gathering options for our team.",Training,Unknown,Unknown
